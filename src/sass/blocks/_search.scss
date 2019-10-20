@@ -1,0 +1,31 @@
+.search {
+    padding: 30px 0;
+    background-color: $dark;
+    input {
+        background-color: lighten($dark, 6%);
+    }
+    form {
+        grid-gap: $gutter;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .button {
+        font-size: 17px;
+        padding: 14px;
+        width: 100%;
+    }
+}
+input, textarea {
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    outline: none;
+    transition: background-color .25 ease;
+    &:focus {
+        background-color: $light;
+    }
+    &::placeholder {
+        color: lighten($dark, 20%);
+    }
+}

@@ -1,0 +1,21 @@
+.ready {
+      background-color: $light;
+    .container {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+.ready-left {
+    border-right: 1px solid #dadada;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+   
+    h2 {
+        margin-top: 0;
+       margin-bottom: 40px;
+    }
+}
+.ready-right {
+    padding-left: 40px;
+}
